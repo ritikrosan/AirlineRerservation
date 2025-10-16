@@ -18,7 +18,7 @@
     <h2>📋 Flight Booking</h2>
     
     <!-- Flight Summary -->
-    <div style="background: #e3f2fd; padding: 20px; border-radius: 8px; margin-bottom: 25px;">
+    <div class="booking-summary">
         <h3>Flight: <%= flightNumber %></h3>
         <table style="width: 100%;">
             <tr>

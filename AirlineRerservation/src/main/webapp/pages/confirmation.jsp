@@ -21,13 +21,13 @@
 <jsp:include page="../includes/navbar.jsp"/>
 
 <div class="container">
-    <div style="background: #d4edda; color: #155724; padding: 25px; border-radius: 10px; text-align: center; margin-bottom: 25px;">
+    <div class="confirmation-message">
         <h2 style="margin: 0;">🎉 Booking Confirmed!</h2>
         <p style="margin: 10px 0 0 0; font-size: 1.1em;">Thank you for choosing SkyWings Airlines</p>
     </div>
     
     <!-- E-Ticket -->
-    <div style="border: 2px dashed #0066cc; padding: 25px; border-radius: 10px; background: white;">
+    <div class="e-ticket">
         <h3 style="text-align: center; color: #0066cc;">✈️ E-TICKET</h3>
         <table style="width: 100%; border-collapse: collapse;">
             <tr>

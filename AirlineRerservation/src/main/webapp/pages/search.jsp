@@ -75,9 +75,4 @@
     </div>
 </div>
 
-<style>
-.flight-card { background: white; border: 1px solid #ddd; padding: 20px; margin: 15px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-.flight-card:hover { box-shadow: 0 4px 10px rgba(0,0,0,0.15); }
-</style>
-
 <jsp:include page="../includes/footer.jsp"/>

@@ -40,7 +40,7 @@
     <!-- Main Search Form -->
     <div class="search-form">
         <h3>Find Your Perfect Flight</h3>
-        <form action="flight.jsp" method="get">
+        <form action="flights.jsp" method="get">
             <table>
                 <tr>
                     <td>
