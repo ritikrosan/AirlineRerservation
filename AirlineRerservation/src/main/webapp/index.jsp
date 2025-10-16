@@ -22,6 +22,7 @@
                             <option value="BOM">Mumbai (BOM)</option>
                             <option value="BLR">Bangalore (BLR)</option>
                             <option value="HYD">Hyderabad (HYD)</option>
+                            <option value="BBS">Bhubaneswar (BBS)</option>
                         </select>
                     </td>
                     <td style="padding: 10px;">
@@ -31,6 +32,7 @@
                             <option value="BOM">Mumbai (BOM)</option>
                             <option value="BLR">Bangalore (BLR)</option>
                             <option value="HYD">Hyderabadd (HYD)</option>
+                            <option value="BBS">Bhubaneswar (BBS)</option>
                         </select>
                     </td>
                 </tr>
