@@ -14,7 +14,7 @@
 <jsp:include page="../includes/navbar.jsp"/>
 
 <div class="container">
-    <h2> Search - Results</h2>
+    <h2> Search  Results</h2>
     <p>Showing flights from <strong><%= fromCity %></strong> to <strong><%= toCity %></strong> on <strong><%= date %></strong> for <strong><%= passengers %></strong> passenger(s)</p>
     
     <!-- Flight Results -->
@@ -25,7 +25,7 @@
                 <tr>
                     <td><strong>Departure:</strong> <%= fromCity %> - 08:00 AM</td>
                     <td><strong>Arrival:</strong> <%= toCity %> - 10:30 AM</td>
-                    <td><strong>Duration:</strong> 2h-git 30m</td>
+                    <td><strong>Duration:</strong> 2h git 30m</td>
                     <td style="text-align: right;"><strong>Price:</strong> ₹5,599</td>
                 </tr>
             </table>
@@ -50,7 +50,7 @@
             <div style="text-align: right; margin-top: 10px;">
                 <a href="booking.jsp?flight=SW202&from=<%= fromCity %>&to=<%= toCity %>&date=<%= date %>&price=6299" 
                    style="background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">
-                   Book Now
+                   Book-Now
                 </a>
             </div>
         </div>
@@ -61,7 +61,7 @@
                 <tr>
                     <td><strong>Departure:</strong> <%= fromCity %> - 07:30 PM</td>
                     <td><strong>Arrival:</strong> <%= toCity %> - 10:00 PM</td>
-                    <td><strong>Duration:</strong> 2h 30m</td>
+                    <td><strong>Duration:</strong> 2h-30m</td>
                     <td style="text-align: right;"><strong>Price:</strong> ₹4,999</td>
                 </tr>
             </table>
