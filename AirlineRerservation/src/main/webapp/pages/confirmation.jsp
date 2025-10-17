@@ -71,7 +71,7 @@
                  Print Ticket
             </button>
             <a href="../../index.jsp" style="background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 0 10px; display: inline-block;">
-                 Book Another Flight
+                 Book Another Flight in our site
             </a>
         </div>
     </div>
