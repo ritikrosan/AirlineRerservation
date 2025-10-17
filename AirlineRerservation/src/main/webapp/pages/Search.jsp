@@ -25,8 +25,8 @@
                 <tr>
                     <td><strong>Departure:</strong> <%= fromCity %> - 08:00 AM</td>
                     <td><strong>Arrival:</strong> <%= toCity %> - 10:30 AM</td>
-                    <td><strong>Duration:</strong> 2h-30m</td>
-                    <td style="text-align: right;"><strong>Price:</strong> ₹5,499</td>
+                    <td><strong>Duration:</strong> 2h-git 30m</td>
+                    <td style="text-align: right;"><strong>Price:</strong> ₹5,599</td>
                 </tr>
             </table>
             <div style="text-align: right; margin-top: 10px;">
@@ -43,8 +43,8 @@
                 <tr>
                     <td><strong>Departure:</strong> <%= fromCity %> - 02:15 PM</td>
                     <td><strong>Arrival:</strong> <%= toCity %> - 04:45 PM</td>
-                    <td><strong>Duration:</strong> 2h-30m</td>
-                    <td style="text-align: right;"><strong>Price:</strong> ₹6,299</td>
+                    <td><strong>Duration:</strong> 2h 30m</td>
+                    <td style="text-align: right;"><strong>Price:</strong> ₹6,399</td>
                 </tr>
             </table>
             <div style="text-align: right; margin-top: 10px;">
@@ -61,7 +61,7 @@
                 <tr>
                     <td><strong>Departure:</strong> <%= fromCity %> - 07:30 PM</td>
                     <td><strong>Arrival:</strong> <%= toCity %> - 10:00 PM</td>
-                    <td><strong>Duration:</strong> 2h-30m</td>
+                    <td><strong>Duration:</strong> 2h 30m</td>
                     <td style="text-align: right;"><strong>Price:</strong> ₹4,999</td>
                 </tr>
             </table>
