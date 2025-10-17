@@ -61,7 +61,7 @@
                 <tr>
                     <td><strong>Departure:</strong> <%= fromCity %> - 07:30 PM</td>
                     <td><strong>Arrival:</strong> <%= toCity %> - 10:00 PM</td>
-                    <td><strong>Duration:</strong> 2h-30m</td>
+                    <td><strong>Duration:</strong> 2h- 30m</td>
                     <td style="text-align: right;"><strong>Price:</strong> ₹4,999</td>
                 </tr>
             </table>
