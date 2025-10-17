@@ -22,13 +22,13 @@
 
 <div class="container">
     <div class="confirmation-message">
-        <h2 style="margin: 0;">🎉 Booking Confirmed!</h2>
+        <h2 style="margin: 0;"> Booking Confirmed!</h2>
         <p style="margin: 10px 0 0 0; font-size: 1.1em;">Thank you for choosing SkyWings Airlines</p>
     </div>
     
     <!-- E-Ticket -->
     <div class="e-ticket">
-        <h3 style="text-align: center; color: #0066cc;">✈️ E-TICKET</h3>
+        <h3 style="text-align: center; color: #0066cc;"> E-TICKET</h3>
         <table style="width: 100%; border-collapse: collapse;">
             <tr>
                 <td style="padding: 10px; border-bottom: 1px solid #ddd;"><strong>Booking ID:</strong></td>
@@ -62,16 +62,16 @@
     </div>
     
     <div style="text-align: center; margin-top: 25px;">
-        <p><strong>📧 Contact Email:</strong> <%= email %></p>
-        <p><strong>📞 Contact Phone:</strong> <%= phone %></p>
+        <p><strong> Contact Email:</strong> <%= email %></p>
+        <p><strong> Contact Phone:</strong> <%= phone %></p>
         <p style="color: #666; font-style: italic;">A confirmation email has been sent to your registered email address.</p>
         
         <div style="margin-top: 20px;">
             <button onclick="window.print()" style="background: #0066cc; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin: 0 10px; cursor: pointer;">
-                🖨️ Print Ticket
+                 Print Ticket
             </button>
             <a href="../../index.jsp" style="background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 0 10px; display: inline-block;">
-                ✈️ Book Another Flight
+                 Book Another Flight
             </a>
         </div>
     </div>
