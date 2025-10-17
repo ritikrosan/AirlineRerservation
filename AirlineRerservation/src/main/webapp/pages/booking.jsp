@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
-    // Get flight details from parameters
+    // Get flight details
     String flightNumber = request.getParameter("flight");
     String fromCity = request.getParameter("from");
     String toCity = request.getParameter("to");
@@ -15,7 +15,7 @@
 <jsp:include page="../includes/navbar.jsp"/>
 
 <div class="container">
-    <h2>📋 Flight Booking</h2>
+    <h2> Flight Booking</h2>
     
     <!-- Flight Summary -->
     <div class="booking-summary">
@@ -38,7 +38,7 @@
         <input type="hidden" name="date" value="<%= date %>">
         <input type="hidden" name="price" value="<%= price %>">
         
-        <h3>👤 Passenger Details</h3>
+        <h3> Passenger Details</h3>
         <table style="width: 100%;">
             <tr>
                 <td style="padding: 10px; width: 50%;">
@@ -62,7 +62,7 @@
             </tr>
         </table>
         
-        <h3>💳 Payment Information</h3>
+        <h3> Payment Information</h3>
         <table style="width: 100%;">
             <tr>
                 <td style="padding: 10px;">
@@ -84,7 +84,7 @@
         
         <div style="text-align: center; margin-top: 25px;">
             <button type="submit" style="background: #28a745; color: white; padding: 12px 40px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
-                ✅ Confirm Booking
+                 Confirm Booking
             </button>
         </div>
     </form>
